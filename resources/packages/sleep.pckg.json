@@ -1,0 +1,56 @@
+{
+    "dev": {
+        "command": [
+            {
+                "format": [
+                    {
+                        "lspace": true,
+                        "rspace": true,
+                        "type": "const",
+                        "value": "SLEEP"
+                    },
+                    {
+                        "lspace": true,
+                        "rspace": true,
+                        "type": "var",
+                        "value": "time"
+                    },
+                    {
+                        "lspace": true,
+                        "rspace": true,
+                        "type": "const",
+                        "value": "SEC."
+                    },
+                    {
+                        "lspace": true,
+                        "rspace": true,
+                        "prefix": "VERBOSE ",
+                        "type": "opt",
+                        "value": "verbose"
+                    }
+                ],
+                "id": "sleep",
+                "name": "Sleep",
+                "parameter": [
+                    {
+                        "datatype": "int",
+                        "hidden": false,
+                        "id": "time",
+                        "index": 0,
+                        "name": "Time",
+                        "required": true
+                    },
+                    {
+                        "datatype": "bool",
+                        "hidden": false,
+                        "id": "verbose",
+                        "index": 1,
+                        "name": "Verbose",
+                        "required": false
+                    }
+                ]
+            }
+        ],
+        "id": "dev"
+    }
+}

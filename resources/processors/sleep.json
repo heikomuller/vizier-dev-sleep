@@ -1,0 +1,7 @@
+{
+    "packages": ["dev"],
+    "engine": {
+        "className": "SleepTaskProcessor",
+        "moduleName": "vizierdev_sleep.processor"
+    }
+}
